@@ -89,3 +89,8 @@ nav a{
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
+.About{
+    display:flex;
+    align-content: center;
+}
