@@ -66,6 +66,16 @@ p {
     line-height: 1.4;
 }
 
+.headerNav{
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+
+.headerImg{
+    display: inline-block;
+    align-content: center;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -101,16 +111,52 @@ p {
     justify-content: space-evenly;
 }
 
+.box:nth-child(1){
+    background:teal;
+}
+
+.box:nth-child(2){
+    background:gold;
+}
+
+.box:nth-child(3){
+    background:cadetblue;
+}
+
+.box:nth-child(4){
+    background: coral;
+}
+
+.box:nth-child(5){
+    background:crimson;
+}
+
+.box:nth-child(6){
+    background:forstgreen;
+}
+
+.box:nth-child(7){
+    background:darkorchid;
+}
+
+.box:nth-child(8){
+    background:hotpink;
+}
+
+
+
+
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 
 .bottom-content {
     display: flex;
