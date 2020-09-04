@@ -71,10 +71,24 @@ p {
     justify-content: space-evenly;
     
 }
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    color:black;
+    text-decoration: none;
+}
 
 .headerImg{
-    display: inline-block;
-    align-content: center;
+    display: block;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
 }
 .container {
     width: 800px;
@@ -132,7 +146,7 @@ p {
 }
 
 .box:nth-child(6){
-    background:forstgreen;
+    background:forestgreen;
 }
 
 .box:nth-child(7){
@@ -143,9 +157,13 @@ p {
     background:hotpink;
 }
 
+.box:nth-child(9){
+    background:indigo;
+}
 
-
-
+.box:nth-child(10){
+    background:dodgerblue;
+}
 
 .middle-content .boxes .box {
     width: 12.5%;
