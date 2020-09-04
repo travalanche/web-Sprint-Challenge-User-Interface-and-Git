@@ -74,8 +74,10 @@ header{
 }
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    width:50%;
 }
+
 
 nav a{
     color:black;
