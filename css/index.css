@@ -66,6 +66,41 @@ p {
     line-height: 1.4;
 }
 
+header{
+   /* display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    color:black;
+    text-decoration: none;*/
+/* border:1px solid red; */
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding:50px;
+    margin:50px;
+} 
+
+
+/*nav{
+    display:flex;
+    justify-content: space-evenly;
+
+}
+}
+
+.logo{
+    padding:10px;
+
+}*/
+
+header nav a{
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -101,16 +136,56 @@ p {
     justify-content: space-evenly;
 }
 
+.box:nth-child(1){
+    background:teal;
+}
+
+.box:nth-child(2){
+    background:gold;
+}
+
+.box:nth-child(3){
+    background:cadetblue;
+}
+
+.box:nth-child(4){
+    background: coral;
+}
+
+.box:nth-child(5){
+    background:crimson;
+}
+
+.box:nth-child(6){
+    background:forestgreen;
+}
+
+.box:nth-child(7){
+    background:darkorchid;
+}
+
+.box:nth-child(8){
+    background:hotpink;
+}
+
+.box:nth-child(9){
+    background:indigo;
+}
+
+.box:nth-child(10){
+    background:dodgerblue;
+}
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 
 .bottom-content {
     display: flex;
