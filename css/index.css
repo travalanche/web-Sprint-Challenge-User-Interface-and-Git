@@ -66,22 +66,22 @@ p {
     line-height: 1.4;
 }
 
-.header{
+header{
    /* display:flex;
     align-items:center;
     justify-content:space-evenly;
     color:black;
     text-decoration: none;*/
-
+/* border:1px solid red; */
     display:flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding:50px;
     margin:50px;
 } 
 
 
-nav{
+/*nav{
     display:flex;
     justify-content: space-evenly;
 
@@ -91,9 +91,9 @@ nav{
 .logo{
     padding:10px;
 
-}
+}*/
 
-.header nav a{
+header nav a{
     padding: 10px;
     display: inline-block;
     text-decoration: none;
