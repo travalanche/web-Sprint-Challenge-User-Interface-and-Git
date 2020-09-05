@@ -70,12 +70,22 @@ header{
     border: 1px solid red;
     display:flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    padding:50px;
+    margin:50px;
+  
     
+}
+.logo{
+    border:1px solid red;
+    display:flex;
+    align-items:center;
+
 }
 nav{
     border: 1px solid red;
     display: flex;
+    align-items:center;
     justify-content: space-evenly;
     width:50%;
 
